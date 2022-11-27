@@ -4,4 +4,4 @@ RUN pip install diffusers[torch]
 
 COPY entrypoint.py /usr/local/bin
 
-ENTRYPOINT ["docker-entrypoint.py"]
+ENTRYPOINT ["entrypoint.py"]
