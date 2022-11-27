@@ -2,6 +2,6 @@ from diffusers/diffusers-pytorch-cpu
 
 RUN pip install diffusers[torch]
 
-COPY entrypoint.py /usr/local/bin
+COPY ../entrypoint.py /usr/local/bin
 
 ENTRYPOINT ["docker-entrypoint.py"]
